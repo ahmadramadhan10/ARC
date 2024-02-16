@@ -1,0 +1,2 @@
+fork adalah mengubah suatu repository tanpa mempengaruhi repository aslinya atau biasa dikenal dengan hulu repository.
+pull request adalah methode/mekanism meminta kepada developer lain untuk pull branch dari repository ke repository developer lain

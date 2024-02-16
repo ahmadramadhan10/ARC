@@ -1,0 +1,5 @@
+git conflict terjadi ketika adanya modifikasi/perubahan file secara bersamaan menyebabkan git menjadi kebingunan
+mana perubahan yang benar. Git conflict hanya akan mempengaruhi proses git merge dan git akan menandai file yang
+terjadi konflik dan menghentikan proses merge.
+
+Solusinya adalah mengedit file yang ada konflik mergenya ataupun mereset
