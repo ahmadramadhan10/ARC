@@ -1,1 +1,2 @@
-git rebase adalah proses memindahkan atau menggabungkan commit ke commit lain menggunakan commit baru. rebase mengubah basis branch dari satu commit ke commit lain, seakan-akan membuat branch dari commit berbeda
+git rebase adalah proses memindahkan atau menggabungkan commit ke commit lain menggunakan commit baru. 
+rebase mengubah basis branch dari satu commit ke commit lain, seakan-akan membuat branch dari commit berbeda
