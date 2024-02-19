@@ -1,0 +1,48 @@
+#body {
+    background-color: rgba(0, 152, 253, 0.573);
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+#header{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 24%;
+    margin-right: 24%;
+}
+
+#first-button {
+    min-width: 100%;
+    max-width: 100%;
+    padding-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#share-link {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+}
+
+#pos-profile{
+    display: flex;
+    justify-content: center;
+    padding-top : 5%
+}
+
+#profile{
+    width: 20%;
+    height: 20%;
+    border-radius: 100%;
+}
+
+#username {
+    display: flex;
+    justify-content: center;
+}
+
+
