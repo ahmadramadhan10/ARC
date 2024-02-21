@@ -8,7 +8,7 @@
 
 .text {
     color: white;
-    font-size: 2vw;
+    font-size: 1.2vw;
 }
 
 #header{
@@ -20,23 +20,28 @@
 
 #first_button {
     min-width: 2vw;
-    padding-top: 15px;
+    padding-top: 1vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
     display: flex;
     justify-content: flex-end;
 }
 
 #share_link {
     cursor: pointer;
-    width: 3vw;
-    height: 3vw;
     border-radius: 50%;
     border: none;
     background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .titik_tiga {
-    font-size: 2vw;
+    font-size: 1vw;
     color: white;
+    justify-content: center;
+    align-content: center;
 }
 
 #pos_profile{
@@ -46,8 +51,8 @@
 }
 
 #profile{
-    width: 20%;
-    height: 20%;
+    width: 15%;
+    height: 15%;
     border-radius: 100%;
 }
 
@@ -59,28 +64,29 @@
 #find {
     display: flex;
     justify-content: center;
+    padding: 1vw;
 }
 
 #main_section{
     margin-top: auto;
     margin-bottom: auto;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 30%;
+    margin-right: 30%;
     padding-bottom: 5%;
 }
 
 .contact {
     cursor: pointer;
-    width: 100%;
     position: relative;
     display: flex;
     justify-content: space-between;
     border : 1px solid white;
-    border-radius: 40px;
+    border-radius: 5vw;
+    padding: 0.7vw;
 }
 
 .icon {
-    padding-left: 5%;
+    padding-left: 1vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -93,19 +99,19 @@
 }
 
 .link {
-    padding-right: 5%;
+    padding-right: 1vw;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .social_media{
-    font-size: 2vw;
+    font-size: 1.5vw;
     color: white;
 }
 
 #footer {
     display: flex;
     justify-content: center;
-    padding-bottom: 3%;
+    padding-bottom: 3vw;
 }
