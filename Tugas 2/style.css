@@ -1,5 +1,5 @@
 #body {
-    background-color: rgba(0, 152, 253, 0.573);
+    background-color: rgb(5,9,30);
     font-family: "Josefin Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: normal;
@@ -8,6 +8,7 @@
 
 .text {
     color: white;
+    font-size: 2vw;
 }
 
 #header{
@@ -17,22 +18,28 @@
     margin-right: 24%;
 }
 
-#first-button {
-    min-width: 100%;
-    max-width: 100%;
+#first_button {
+    min-width: 2vw;
     padding-top: 15px;
     display: flex;
     justify-content: flex-end;
 }
 
-#share-link {
-    width: 40px;
-    height: 40px;
+#share_link {
+    cursor: pointer;
+    width: 3vw;
+    height: 3vw;
     border-radius: 50%;
     border: none;
+    background-color: transparent;
 }
 
-#pos-profile{
+.titik_tiga {
+    font-size: 2vw;
+    color: white;
+}
+
+#pos_profile{
     display: flex;
     justify-content: center;
     padding-top : 5%
@@ -49,4 +56,56 @@
     justify-content: center;
 }
 
+#find {
+    display: flex;
+    justify-content: center;
+}
 
+#main_section{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-bottom: 5%;
+}
+
+.contact {
+    cursor: pointer;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    border : 1px solid white;
+    border-radius: 40px;
+}
+
+.icon {
+    padding-left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text_contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link {
+    padding-right: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social_media{
+    font-size: 2vw;
+    color: white;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3%;
+}
