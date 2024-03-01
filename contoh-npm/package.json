@@ -1,0 +1,17 @@
+{
+  "name": "contoh-npm",
+  "version": "1.0.0",
+  "description": "contoh npm",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.30.1",
+    "operator" : ""
+  }
+}

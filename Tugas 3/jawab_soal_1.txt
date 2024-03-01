@@ -1,0 +1,1 @@
+Axios adalah library javascript yang digunakan untuk membuat HTTP request dari nodejs atau XMLHttpRequest dari browser dan mensupport promise API. Bisa juga digunakan untuk mencegah HTTP request dan respon dan bisa melindungi sisi client terhadap XSRF dan bisa untuk mencegah requst.
