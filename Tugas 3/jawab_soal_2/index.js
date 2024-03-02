@@ -30,7 +30,7 @@ async function printData() {
         for(let i = 0; i < arr.length; ++i) {
             sum += arr[i];
         }
-        console.log(sum);
+        console.log(`Total Sum dari arraynya adalah ${sum}`);
     }, 5000);
     console.log('Sabar lagi diitung bang...');
 }
