@@ -5,6 +5,7 @@ const server = http.createServer((req, res) => {
         req.on('data', (data) => {
             res.writeHead(200, {'content-type' : 'text/html'});
             const query = JSON.parse(data);
+            res.write
             res.end(`Hai perkenalkan, namaku ${query.nama} dengan NIM ${query.NIM}`);
         });
     } else {
