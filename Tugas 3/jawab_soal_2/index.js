@@ -17,22 +17,27 @@ function inputData() {
     });
 }
 
-async function printData() {
-    const n = await inputData();
-    let arr = [];
-    for(let i = 0; i < n; ++i) {
-        process.stdout.write(`Masukkan nilai ke-${i + 1} : `);
-        arr.push(Number(read.question()));
-    }   
-    
+function calculate(arr, callback) {
     setTimeout(() => {
         let sum = 0;
         for(let i = 0; i < arr.length; ++i) {
             sum += arr[i];
         }
-        console.log(`Total Sum dari arraynya adalah ${sum}`);
-    }, 5000);
-    console.log('Sabar lagi diitung bang...');
+        callback(sum);
+    }, 3000);
 }
+
+async function printData() {
+    let arr = [];
+    const n = await inputData();
+    for(let i = 0; i < n; ++i) {
+        process.stdout.write(`Masukkan nilai ke-${i + 1} : `);
+        arr.push(Number(read.question()));
+    }
+    calculate(arr, (res) => console.log(res));
+    console.log("Sabar lagi diitung bang...");
+}
+
+
 
 printData();
